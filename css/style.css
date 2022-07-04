@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    width: 350px;
+    height: 520px;
+    border-radius: 15px 15px;
+    font-size: 110px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:0px auto;
+}
+
+#pinta_before{
+    position: absolute;
+    margin-bottom: -280px;
+    margin-left: 240px;
+    transform: rotate(180deg);
+
+}
+#pinta_after{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: -240px;
+
+
+}
